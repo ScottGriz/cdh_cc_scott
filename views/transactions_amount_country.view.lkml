@@ -4,7 +4,7 @@ view: transactions_amount_country {
     sql: SELECT
          country as country
          , sum(amount) as amount
-       FROM transactions_cc
+       FROM creditcard.transactions_cc
        GROUP BY country
       ORDER BY country DESC
        ;;
