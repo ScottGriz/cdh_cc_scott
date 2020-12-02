@@ -11,4 +11,4 @@ datagroup: cdh_cc_scott_default_datagroup {
 persist_with: cdh_cc_scott_default_datagroup
 
 explore: transactions_cc {}
-
+explore: transactions_amount_country {}
